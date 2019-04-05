@@ -1,22 +1,14 @@
 
 Overview
 =============
-This sample code provides guidance on how to use the Custom Translator API (preview) using ASP.NET MVC application. Refer to [Custom Translator documentation](https://docs.microsoft.com/en-gb/azure/cognitive-services/translator/custom-translator/overview) to know more about different features of Custom Translator. 
+. 
 
-Custom Translator API (preview) documentation can be found [here](https://custom-api.cognitive.microsofttranslator.com/swagger/).
+Custom Translator API (preview) 
 
-Please contact <custommt@microsoft.com> for questions and support.
 
 Prerequisites
 =============
 
-Create and Register your Azure AD Client App
---------------------------------------------
-
-This sample code uses OAuth and OpenID for authentication. Please sign in to
-<https://apps.dev.microsoft.com> with the same user credentials you use to login
-to Custom Translator. The landing page shows the list of client apps that are
-created/ available to use with your account.
 
 Create an app using **Add an app** button at top right-hand corner of the landing
 page.
@@ -37,7 +29,6 @@ Add two additional delegated permissions
 - **offline_access** 
 - **openid**.
 
-Go to **Microsoft Graph Permissions**, the **Delegated Permissions** in the page to add these permissions.
 
 ![Client app settings](media/80019947a3cce059868f06af8c3ade64.png)
 
